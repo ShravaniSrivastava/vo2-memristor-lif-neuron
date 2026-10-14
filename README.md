@@ -120,13 +120,16 @@ The VO₂ gates do **not** beat TTL on energy per operation or speed. Their adva
 ## References
 
 1. C. Yakopcic, T. M. Taha, G. Subramanyam and R. E. Pino, "Generalized Memristive Device SPICE Model and its Application in Circuit Design," *IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems*, vol. 32, no. 8, pp. 1201–1214, 2013.
-2. [Add the full citation for the Rziga et al. device-profile reference from your report.]
-3. [Add any other references you want to credit, for example the VO₂ neuron and ECG classification work by Yuan et al., 2023.]
+2. Rziga, F. O., Mbarek, K., Ghedira, S., & Besbes, K. (2017). "The basic I–V characteristics of 
+memristor model: simulation and analysis", Applied Physics A, 123(4), 288.
+3. Yuan, R., Tiw, P. J., Cai, L., Yang, Z., Liu, C., Zhang, T., Ge, C., Huang, R., & Yang, Y. (2023). 
+"A neuromorphic physiological signal processing system based on VO₂ memristor for next
+generation human-machine interface", Nature Communications, 14, 3695.
 
 ## Author
 
 **Shravani Srivastava**
 BSc (Hons) Electronics (Minor in Computer Science), ARSD College, University of Delhi
-[LinkedIn link] · [GitHub link]
-
-*Supervised by [supervisor name, optional].*
+[http://www.linkedin.com/in/shravani-srivastava-852106426] · [https://github.com/ShravaniSrivastava]
+**Khushboo Yadav**
+BSc (Hons) Electronics (Minor in Computer Science), ARSD College, University of Delhi
