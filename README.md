@@ -131,5 +131,6 @@ generation human-machine interface", Nature Communications, 14, 3695.
 **Shravani Srivastava**
 BSc (Hons) Electronics (Minor in Computer Science), ARSD College, University of Delhi
 [http://www.linkedin.com/in/shravani-srivastava-852106426] · [https://github.com/ShravaniSrivastava]
+
 **Khushboo Yadav**
 BSc (Hons) Electronics (Minor in Computer Science), ARSD College, University of Delhi
