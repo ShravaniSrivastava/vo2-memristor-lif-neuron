@@ -36,15 +36,6 @@ flowchart LR
 
 **How the neuron works.** The input charges a capacitor (*integrate*) while a resistor slowly drains it (*leak*). When the membrane voltage reaches the VO₂ threshold, the device switches to its low-resistance state and dumps the charge as an output spike (*fire*). When the voltage falls below the holding value, the device returns to its insulating state and the cycle repeats (*reset*).
 
-![LIF neuron schematic](figures/01_lif_schematic.png)
-*LTspice schematic of the VO₂ memristor LIF neuron.*
-
-![VO₂ I–V threshold switching](figures/02_vo2_iv_switching.png)
-*Simulated I–V of the custom VO₂ model: threshold switching with hysteresis.*
-
-![LIF waveforms](figures/03_lif_waveforms.png)
-*LIF neuron operation: the membrane voltage integrates, crosses threshold, fires and resets.*
-
 ## Logic gates
 
 All gates use the same neuron. Only the input network and bias are changed.
@@ -63,15 +54,6 @@ All gates use the same neuron. Only the input network and bias are changed.
 - **AND:** the coupling resistors and load are chosen so a single input keeps the membrane voltage below threshold; both inputs together push it over.
 - **OR:** lower coupling resistance means one input alone crosses the threshold.
 - **NOT:** a constant bias keeps the neuron firing; an inhibitory input removes current and suppresses the spikes.
-
-![AND gate](figures/04_and_gate.png)
-*AND gate: output spikes only when both inputs are active.*
-
-![OR gate](figures/05_or_gate.png)
-*OR gate: either input produces output spikes; both inputs raise the spike rate.*
-
-![NOT gate](figures/06_not_gate.png)
-*NOT gate: an inhibitory input suppresses the spikes.*
 
 ## Comparison with TTL
 
@@ -100,15 +82,6 @@ The VO₂ gates do **not** beat TTL on energy per operation or speed. Their adva
 - Cascade gates and test small networks.
 - Try an adaptive LIF neuron.
 - Carry out a proper energy-per-operation analysis.
-
-## Repository structure
-
-```
-.
-├── README.md
-├── figures/          # simulation plots and schematics used in this README
-└── ltspice/          # (optional) .asc and .sub files, if shared
-```
 
 > The full dissertation report is not published here. It is **available on request**.
 
